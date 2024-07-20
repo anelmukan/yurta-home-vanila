@@ -1,0 +1,58 @@
+body{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  padding: 6px 80px;
+  border-bottom: 1px solid #B7B7B7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;;
+}
+
+.top-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;;
+}
+
+.header-group {
+  display: flex;
+  gap: 30px;
+
+  font-weight: 300;
+  color: #2F3438;
+  text-align: center;
+  align-items: center;
+ /* TODO: add styling */
+}
+
+.search {
+  width: 488px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #DADDE0;
+}
+
+.mail-button {
+  /* TODO: add styling */
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* TODO: add font styling and spacing (flex & gap) */
+}
+
+.menu li.active {
+  border-bottom: 3px solid #1591EA;
+}
+
