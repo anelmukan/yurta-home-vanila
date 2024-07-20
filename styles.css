@@ -9,7 +9,7 @@
 }
 
 header {
-  padding: 6px 80px;
+  padding: 6px 100px;
   border-bottom: 1px solid #b7b7b7;
   display: flex;
   flex-direction: column;
@@ -52,8 +52,11 @@ header {
   font-weight: 500;
 }
 
-.menu {
+ul {
   list-style-type: none;
+}
+
+.menu {
   margin: 0;
   padding: 0;
   display: flex;
@@ -71,4 +74,78 @@ header {
 .menu li.active {
   border-bottom: 3px solid #1591ea;
   color: #1591ea;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 6px 100px;
+}
+
+#options ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#options li {
+  width: 82px;
+  padding: 4px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#options img {
+  width: 68px;
+  height: 68px;
+  border-radius: 20px;
+}
+
+#options span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.text-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-group h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.text-group span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.text-group a {
+  /* TODO: Styling */
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.carousel img {
+  border-radius: 4px;
+}
+
+#photo-recomendations .carousel {
+  height: 230px;
+}
+
+#photo-recomendations .card {
+  height: 230px;
+  width: 173px;
 }
