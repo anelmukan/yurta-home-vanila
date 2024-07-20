@@ -124,7 +124,7 @@ main {
 }
 
 .text-group h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 18px;
   margin-bottom: 6px;
 }
@@ -135,7 +135,7 @@ main {
 }
 
 .text-group a {
-  /* TODO: Styling */
+  color: #1591ea;
 }
 
 .carousel {
@@ -143,6 +143,9 @@ main {
   overflow-x: auto;
   gap: 16px;
   margin-top: 16px;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .carousel img {
@@ -165,7 +168,8 @@ main {
 }
 
 #house-recomendations .card text {
-  /* TODO: style */
+  color: #1591ea;
+  /* font-weight: 300; */
 }
 
 #product-deals .card {
@@ -194,6 +198,12 @@ main {
   font-size: 18px;
 }
 
-#product-deals .card .text-group img{
+#product-deals .card .text-group img {
   height: 18px;
+}
+
+.price-and-buy {
+  display: flex;
+  justify-content: space-between;
+  gap: 95px;
 }
