@@ -41,7 +41,7 @@ header {
   border: 1px solid #dadde0;
 }
 
-.mail-button {
+button {
   color: #ffffff;
   background-color: #1591ea;
   border-radius: 6px;
@@ -129,7 +129,7 @@ main {
   margin-bottom: 6px;
 }
 
-.text-group span {
+.text-group text {
   font-weight: 400;
   font-size: 14px;
 }
@@ -149,11 +149,51 @@ main {
   border-radius: 4px;
 }
 
-#photo-recomendations .carousel {
-  height: 230px;
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
-
 #photo-recomendations .card {
   height: 230px;
   width: 173px;
+}
+
+#house-recomendations .card img {
+  width: 268px;
+  height: 180px;
+}
+
+#house-recomendations .card text {
+  /* TODO: style */
+}
+
+#product-deals .card {
+  width: 270px;
+}
+
+#product-deals .card img {
+  border-radius: 6px 6px 0 0;
+  width: 270px;
+  height: 270px;
+}
+
+#product-deals .card .text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+#product-deals .card .text-group .category {
+  /* TODO: styling */
+}
+
+#product-deals .card .text-group h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#product-deals .card .text-group img{
+  height: 18px;
 }
